@@ -23,7 +23,7 @@ The wp-config is the configuration file of your WordPress and is one of the most
 This means even the user and the server has no right to edit, whereas other can not even read.
 
 ```
-find . -type f -name '.httpaccess' -print0 | xargs -0 chmod 440
+find . -type f -name '.htaccess' -print0 | xargs -0 chmod 440
 ```
 
 ```
